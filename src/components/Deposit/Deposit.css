@@ -1,0 +1,18 @@
+.deposit-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.deposit {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+@media (max-width: 700px) {
+	.deposit {
+		max-width: 90%;
+	}
+}

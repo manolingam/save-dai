@@ -1,0 +1,57 @@
+.tab-switcher {
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.deposit-tab,
+.manage-tab {
+	font-weight: bold;
+}
+
+.tabs a {
+	color: rgb(105, 98, 98);
+}
+
+.tabs li.is-active a {
+	color: black;
+	border-bottom-width: 5px;
+	border-bottom-color: black;
+}
+
+.button,
+.input {
+	font-family: 'Roboto Slab', serif;
+}
+
+.button {
+	margin-left: 20px;
+}
+
+.manage-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.withdraw-button {
+	background-color: #63b7af;
+	color: white;
+}
+
+.withdraw-button:hover {
+	color: white;
+}
+
+.claim-button {
+	background-color: #40bad5;
+	color: white;
+}
+
+.claim-button:hover {
+	color: white;
+}

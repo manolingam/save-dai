@@ -1,0 +1,71 @@
+.estimation {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+.estimation-title {
+	margin-bottom: 2rem;
+	color: rgb(90, 88, 88);
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	width: 100%;
+}
+
+.card {
+	padding: 10px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card .plan-heading {
+	max-width: 50%;
+	margin-right: 10px;
+}
+
+.is-large {
+	font-size: 2rem;
+}
+
+.is-medium {
+	font-size: 1.5rem;
+}
+
+.is-normal {
+	font-size: 1rem;
+}
+
+.is-small {
+	font-size: 0.7rem;
+}
+
+@media (max-width: 700px) {
+	.estimation {
+		max-width: 90%;
+		min-width: 90%;
+	}
+	.is-large {
+		font-size: 1.3rem;
+	}
+	.is-medium {
+		font-size: 1rem;
+	}
+	.is-small {
+		font-size: 0.5rem;
+	}
+	.plan-heading {
+		font-size: 0.7rem;
+	}
+	.year {
+		font-size: 0.5rem;
+	}
+}
