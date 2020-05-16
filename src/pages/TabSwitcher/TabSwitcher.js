@@ -67,15 +67,15 @@ class TabSwitcher extends Component {
 					</ul>
 				</div>
 				<p className='is-normal' style={{ marginBottom: '2rem' }}>
-					Your saveDAI balance{' '}
+					Your saveDAI balance is{' '}
 					<span className='is-large'>
 						100 <span className='is-medium'>DAI</span>
 					</span>{' '}
 					<span
 						className='is-medium'
-						style={{ color: 'green', marginLeft: '10px' }}
+						style={{ color: 'green', marginLeft: '5px' }}
 					>
-						$100.37
+						($100.37)
 					</span>
 				</p>
 				{this.state.deposit ? (
