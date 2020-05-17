@@ -36,7 +36,7 @@ class Intro extends React.Component {
 								<p>
 									Your saveDAI account will start earning
 									interest instantly, and your deposit will be
-									protected until February 10,2021, when the
+									protected until February 10, 2021, when the
 									insurance expires.
 								</p>
 								<p>
