@@ -3,12 +3,23 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 
 .deposit {
+	height: 100px;
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+	align-items: center;
+}
+
+#lock {
+	margin-left: 10px;
+	margin-top: 1.5rem;
+}
+
+#lock:hover {
+	cursor: pointer;
 }
 
 @media (max-width: 700px) {

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Estimation from '../Estimation/Estimation';
 
+import './Manage.css';
+
 class Manage extends Component {
 	render() {
 		return (

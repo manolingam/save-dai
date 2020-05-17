@@ -26,16 +26,35 @@ class Navbar extends Component {
 					<div className='navbar-links'>
 						<ul>
 							<li>
-								<a href='#'>Developers</a>
+								<a
+									href='https://docs.savedai.xyz'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Developers
+								</a>
 							</li>
 							<li>
-								<a href='#'>FAQ</a>
+								<a
+									href='https://faq.savedai.xyz'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									FAQ
+								</a>
 							</li>
 							<li>
-								<a href='#'>Blog</a>
+								<a
+									href='https://medium.com/savedai'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Blog
+								</a>
 							</li>
 						</ul>
 					</div>
+
 					<div className='brand-title'>
 						<img
 							src='https://savedai.xyz/img/services/saveDAI_logo_transparent.png'

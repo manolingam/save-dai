@@ -9,7 +9,7 @@ class RouteSwitcher extends Component {
 	static contextType = Web3Context;
 	render() {
 		var { address } = this.context;
-		return address ? <TabSwitcher /> : <Intro />;
+		return address ? <TabSwitcher address={address} /> : <Intro />;
 	}
 }
 

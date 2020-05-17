@@ -1,4 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
+
+import Identicon from 'identicon.js';
 
 import 'bulma';
 
@@ -46,6 +49,16 @@ class TabSwitcher extends Component {
 	render() {
 		return (
 			<div className='tab-switcher'>
+				<span className='tag is-black'>
+					<img
+						src={`data:image/png;base64,${new Identicon(
+							this.props.address,
+							30
+						).toString()}`}
+						alt='identicon'
+					></img>
+					<p>{this.props.address}</p>
+				</span>
 				<div class='tabs is-centered'>
 					<ul>
 						<li className={this.state.deposit ? 'is-active' : ''}>

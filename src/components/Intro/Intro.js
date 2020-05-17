@@ -25,7 +25,7 @@ class Intro extends React.Component {
 							<div className='details'>
 								<p>Welcome to saveDai!</p>
 								<p>
-									saveDai is am easy way to open a
+									saveDAI is an easy way to open a
 									high-interest, insured savings account--all
 									without a bank!
 								</p>

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 
+import Tooltip from '@material-ui/core/Tooltip';
+import LockOpenIcon from '@material-ui/icons/LockOpen';
+
 import Estimation from '../Estimation/Estimation';
 
 import './Deposit.css';
 
 class Deposit extends Component {
-	state = {};
+	state = {
+		locked: true,
+	};
 	render() {
 		return (
 			<div className='deposit-container'>
@@ -26,13 +31,22 @@ class Deposit extends Component {
 							placeholder='DAI deposit amount'
 						></input>
 					</div>
-					<button
-						className='button is-danger'
-						title='Disabled button'
-						disabled
-					>
-						Deposit
-					</button>
+
+					{this.state.locked ? (
+						<div id='lock'>
+							<Tooltip title='Unlock' arrow placement='top'>
+								<LockOpenIcon fontSize='medium' />
+							</Tooltip>
+						</div>
+					) : (
+						<button
+							className='button is-danger'
+							title='Disabled button'
+							disabled
+						>
+							Deposit
+						</button>
+					)}
 				</div>
 				<Estimation />
 			</div>

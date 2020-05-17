@@ -11,12 +11,12 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className='App'>
-				<Navbar />
-				<div className='body-container'>
-					<Web3ContextProvider>
+				<Web3ContextProvider>
+					<Navbar />
+					<div className='body-container'>
 						<RouteSwitcher />
-					</Web3ContextProvider>
-				</div>
+					</div>
+				</Web3ContextProvider>
 			</div>
 		);
 	}

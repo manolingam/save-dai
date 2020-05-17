@@ -80,12 +80,14 @@
 	.navbar {
 		flex-direction: column;
 		align-items: flex-start;
+		margin-top: 0.7rem;
+		margin-bottom: 0.7rem;
 	}
 
 	.navbar-links ul {
 		width: 100%;
 		flex-direction: column;
-		margin-top: 3rem;
+		margin-top: 3.3rem;
 		background-color: white;
 	}
 
@@ -96,7 +98,6 @@
 	.navbar-links li a {
 		padding: 0.5rem 1rem;
 	}
-
 	.navbar-links.active {
 		display: flex;
 	}
