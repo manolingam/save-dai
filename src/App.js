@@ -3,7 +3,7 @@ import React from 'react';
 import Web3ContextProvider from './context/Web3Context';
 
 import Navbar from './components/Navbar/Navbar';
-import RouteSwitcher from './pages/RouteSwitcher';
+import ComponentSwitcher from './components/Switcher/ComponentSwitcher';
 
 import './App.css';
 
@@ -14,7 +14,7 @@ class App extends React.Component {
 				<Web3ContextProvider>
 					<Navbar />
 					<div className='body-container'>
-						<RouteSwitcher />
+						<ComponentSwitcher />
 					</div>
 				</Web3ContextProvider>
 			</div>

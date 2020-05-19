@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Estimation from '../Estimation/Estimation';
+import Estimation from '../../Estimation/Estimation';
 
 import './Manage.css';
 

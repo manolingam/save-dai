@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import { Web3Context } from '../context/Web3Context';
+import { Web3Context } from '../../context/Web3Context';
 
 import TabSwitcher from './TabSwitcher/TabSwitcher';
-import Intro from '../components/Intro/Intro';
+import Intro from '../Intro/Intro';
 
-class RouteSwitcher extends Component {
+class ComponentSwitcher extends Component {
 	static contextType = Web3Context;
 	render() {
 		var { address } = this.context;
@@ -13,4 +13,4 @@ class RouteSwitcher extends Component {
 	}
 }
 
-export default RouteSwitcher;
+export default ComponentSwitcher;

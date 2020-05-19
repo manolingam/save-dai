@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Tooltip from '@material-ui/core/Tooltip';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 
-import Estimation from '../Estimation/Estimation';
+import Estimation from '../../Estimation/Estimation';
 
 import './Deposit.css';
 

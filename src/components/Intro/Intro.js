@@ -41,7 +41,13 @@ class Intro extends React.Component {
 								</p>
 								<p>
 									Learn more in our{' '}
-									<a href=''>Frequently Asked Questions.</a>
+									<a
+										href='http://docs.savedai.xyz'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										Frequently Asked Questions.
+									</a>
 								</p>
 								<p id='note-message'>
 									Note: This is alpha software; the code has

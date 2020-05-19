@@ -27,7 +27,7 @@ class Navbar extends Component {
 						<ul>
 							<li>
 								<a
-									href='https://docs.savedai.xyz'
+									href='http://docs.savedai.xyz'
 									target='_blank'
 									rel='noopener noreferrer'
 								>

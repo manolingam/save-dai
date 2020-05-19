@@ -5,10 +5,10 @@ import Identicon from 'identicon.js';
 
 import 'bulma';
 
-import Withdraw from '../../components/Withdraw/Withdraw';
-import Claim from '../../components/Claim/Claim';
-import Manage from '../../components/Manage/Manage';
-import Deposit from '../../components/Deposit/Deposit';
+import Withdraw from '../../Withdraw/Withdraw';
+import Claim from '../../Claim/Claim';
+import Manage from '../../Tabs/Manage/Manage';
+import Deposit from '../../Tabs/Deposit/Deposit';
 
 import './TabSwitcher.css';
 
